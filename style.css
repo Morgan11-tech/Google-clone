@@ -1,0 +1,114 @@
+body {
+display: flex;
+flex-direction: column;
+height: 130vh;
+}
+
+/*header*/
+
+.header{
+display: flex;
+justify-content: space-between;
+padding: 20px 30px;
+align-items: center;
+}
+
+.header a{
+    margin-right: 20px;
+    color:black;
+    font-size: 15px;
+    text-decoration: inherit;
+    font-family: sans-serif;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+.right_side{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+.right_side .apps_icon{
+    margin-right: 10px;
+}
+
+/*body*/
+
+.googlelogo{
+ flex: 1;
+ display: flex;
+ margin-top: 11%;
+ flex-direction: column; 
+} 
+.googlelogo img{
+    object-fit: contain;
+    height: 150px;
+}
+.searchbox{
+    display: flex;
+    align-items:center;
+    border:1px solid lightgrey;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+}
+.searchbox input{
+    flex:1;
+    padding: 10px 20px;
+    border:none;
+    outline: none; 
+}
+.searchbuttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.searchbuttons button{
+    margin:5px;
+    padding:10px 15px;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.lang {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; 
+    flex-direction: row;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.lang a{
+    text-decoration: inherit;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+.lang a:hover{
+    text-decoration: underline;
+}
+.services{
+    display: flex;
+    margin-top: 30%;
+    padding: 20px 30px;
+    align-items: center;
+    background-color:rgb(230, 227, 227);
+}
+.services a{
+    margin-right: 20px;
+    color: grey;
+    font-size: 15px;
+    text-decoration: inherit;
+    font-family: sans-serif;
+}
+.services a:hover{
+    text-decoration: underline;
+}
